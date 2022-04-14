@@ -41,7 +41,7 @@ int main()
 		//Test to see if the string is empty. If so, cast the value i to a string value, then store that into the output string.
 		if (out.empty())
 		{
-			out = to_string(i);
+			out = std::to_string(i);
 		}
 
 		//Display the string on the screen, with a carriage return at the end.
